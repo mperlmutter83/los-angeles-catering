@@ -27,6 +27,9 @@ export default function Header() {
             <Link href="/" className="text-sm font-medium text-orange-500 hover:text-orange-600 transition-colors">
               Home
             </Link>
+            <Link href="/blog" className="text-sm font-medium text-gray-700 hover:text-orange-500 transition-colors">
+              Blog
+            </Link>
             <Link href="/contact" className="text-sm font-medium text-gray-700 hover:text-orange-500 transition-colors">
               Contact Us
             </Link>
@@ -55,6 +58,7 @@ export default function Header() {
           <nav className="lg:hidden py-4 border-t border-gray-100">
             <div className="flex flex-col space-y-3">
               <Link href="/" className="text-sm font-medium text-orange-500">Home</Link>
+              <Link href="/blog" className="text-sm font-medium text-gray-700 hover:text-orange-500">Blog</Link>
               <Link href="/contact" className="text-sm font-medium text-gray-700 hover:text-orange-500">Contact Us</Link>
               <a href="tel:+13106517590" className="text-sm font-medium text-gray-700">(310) 651-7590</a>
             </div>
