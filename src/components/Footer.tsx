@@ -29,10 +29,15 @@ export default function Footer() {
             </a>
           </div>
 
-          {/* Copyright */}
-          <p className="text-sm text-gray-400">
+          {/* Copyright + Links */}
+          <div className="flex flex-col md:flex-row items-center gap-4">
+            <Link href="/looking-for-work" className="text-sm text-gray-400 hover:text-orange-500 transition-colors">
+              Looking for Work
+            </Link>
+            <p className="text-sm text-gray-400">
             Designed by <span className="text-orange-500">Elegant Themes</span> | Powered by <span className="text-orange-500">WordPress</span>
-          </p>
+            </p>
+          </div>
         </div>
       </div>
     </footer>
